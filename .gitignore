@@ -1,33 +1,37 @@
-# Gradle files
-.gradle/
-build/
+//Project Structure//
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+bash
+ecommerce-website/
+client/
+public/
+index.html
+src/
+components/
+App.js
+Header.js
+Footer.js
+ProductList.js
+ProductDetail.js
+containers/
+AppContainer.js
+ProductContainer.js
+actions/
+productActions.js
+types/
+productTypes.js
+reducers/
+productReducer.js
+store.js
+index.js
+server/
+models/
+Product.js
+User.js
+controllers/
+productController.js
+userController.js
+routes/
+productRoutes.js
+userRoutes.js
+app.js
+package.json
